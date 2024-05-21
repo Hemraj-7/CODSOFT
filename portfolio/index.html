@@ -11,13 +11,13 @@
 
 <body id="home">
     <nav class="navbar">
-        <h1 class="logo">Hem Raj</h1>
+        <h1 class="logo"><a href="#home">Hem Raj</a></h1>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="home-pic">
-                <img width="600" src="./man.webp" alt="">
+                <img width="500" src="./man.svg" alt="">
             </div>
         </section>
         <section id="about" class="about">
@@ -228,11 +228,77 @@
             </div>
         </section>
         <section id="projects" class="projects about">
-
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="proj-card">
+                    <img width="1000" src="./project pic/Noteswala.png" alt="">
+                    <div class="center">
+                        <button>Source Code</button>
+                        <button>Preview</button>
+                    </div>
+                </div>
+                <div class="proj-card">
+                    <img width="900" src="./project pic/passop.png" alt="">
+                    <div class="center">
+                        <button>Source Code</button>
+                        <button>Preview</button>
+                    </div>
+                </div>
+                <div class="proj-card">
+                    <img width="900" src="./project pic/itask.png" alt="">
+                    <div class="center">
+                        <button>Source Code</button>
+                        <button>Preview</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="about contact">
+            <h2>Contact</h2>
+           <div class="contact-container">
+                <div class="left-contact">
+                    <form action="" class="form">
+                        <input type="text" placeholder="NAME">
+                        <input type="text" placeholder="GMAIL">
+                        <textarea name="" id="" placeholder="MESSAGE"></textarea>
+                        <button>Submit</button>
+                    </form>
+                </div>
+                <div class="right-contact">
+                    <div class="contact-icon">
+                        <img src="./location.svg" alt="">
+                        <span>Hyderabad, India</span>
+                    </div>
+                    <div class="contact-icon">
+                        <img src="./phone.svg" alt="">
+                        <span>7878356241</span>
+                    </div>
+                    <div class="contact-icon">
+                        <img src="./mail.svg" alt="">
+                        <span>mhemraj814@gmail.com</span>
+                    </div>
+                    <hr>
+                    <div class="contact-icon">
+                        <a href="">
+                            <img class="icon" src="git.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img class="icon" src="linkedin.svg" alt="">
+                        </a>
+                        <a href="mailto:mhemraj814@gmail.com">
+                            <img class="icon" src="gmail.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img class="icon" src="instagram.svg" alt="">
+                        </a>
+                    </div>
+                    <hr>
+                </div>
+           </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="navbar">
+        All right &copy; resevered by Hemraj-7
     </footer>
 </body>
 
