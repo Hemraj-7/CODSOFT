@@ -59,7 +59,7 @@ ul li a:hover{
 }
 
 .home{
-    height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
     display: flex;
     gap: 2%;
     padding: 0 150px;
@@ -195,8 +195,12 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     flex-wrap: wrap;
+}
+
+.projects-container p{
+    text-align: center;
 }
 
 .proj-card{
@@ -225,6 +229,7 @@ h3{
 
 .contact-container{
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -275,7 +280,7 @@ h3{
 }
 
 .icon{
-    padding: 15px;
+    padding: 12px;
     border: 2px solid var(--color);
     border-radius: 50%;
 }
