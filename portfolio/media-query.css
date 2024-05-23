@@ -1,7 +1,11 @@
 @media (max-width: 600px) {
 
   .navbar {
-    justify-content: flex-start;
+    padding: 0 20px;
+  }
+  
+  .navbar img{
+    color: white;
   }
 
   .navbar ul {
@@ -70,11 +74,15 @@
 
   .left-contact, .right-contact{
     height: auto;
-    width: 94vw;
+    width: 90vw;
     padding: 20px;
   }
 
   .contact-icons{
     justify-content: center;
+  }
+
+  .icon{
+    padding: 7px;
   }
 }
