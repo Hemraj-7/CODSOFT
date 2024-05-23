@@ -26,6 +26,10 @@
     z-index: 10;
 }
 
+.navbar img{
+    display: none;
+}
+
 .navbar h1{
     font-size: 32px;
 }
