@@ -3,8 +3,8 @@
   .navbar {
     padding: 0 20px;
   }
-  
-  .navbar img{
+
+  .navbar img {
     display: block;
     color: white;
   }
@@ -38,52 +38,68 @@
     width: 100%;
   }
 
-  .about-me{
+  .about-me {
     padding: 10px 1px;
     padding-bottom: 0px;
   }
 
-  .about h2{
+  .about h2 {
     font-size: 36px;
   }
 
-  .about p{
+  .about p {
     padding: 0 20px;
     text-align: justify;
   }
 
-  .container{
+  .container {
     justify-content: center;
+    gap: 15px;
   }
 
-  .proj-card{
-    width: 380px;
+  .container-left,
+  .container-center,
+  .container-right {
+    padding: 0px 0px;
+    gap: 15px;
   }
 
-  .proj-card img{
-    width: 380px;
-  }  
+  .card {
+    padding: 3px 7px;
+    gap: 12px;
+  }
 
-  .contact{
+  .proj-card,
+  .proj-card img {
+    width: 370px;
+  }
+
+  .contact {
     padding-top: 50px;
   }
 
-  .contact-container{
+  .contact-container {
     flex-direction: column;
     gap: 0;
   }
 
-  .left-contact, .right-contact{
+  .left-contact,
+  .right-contact {
     height: auto;
     width: 90vw;
     padding: 20px;
   }
 
-  .contact-icons{
+  .contact-icons {
     justify-content: center;
   }
 
-  .icon{
+  .icon {
     padding: 7px;
+  }
+
+  .footer {
+    font-size: 12px;
+    font-weight: 500;
   }
 }
