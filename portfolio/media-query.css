@@ -57,6 +57,10 @@
     text-align: justify;
   }
 
+  .skills {
+    padding-top: 65px;
+  }
+
   .container {
     justify-content: center;
     gap: 15px;

@@ -171,6 +171,31 @@ button a{
     color: var(--text-color);
 }
 
+.about-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.about-card{
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    padding: 10px 12px;
+    width: 310px;
+    color: var(--text-color);
+}
+
+.about-me h3{
+    color: var(--color);
+}
+
+.about-card h4{
+    font-size: 20px;
+    padding: 0 0;
+    color: #020514;
+}
+
 .container {
     display: flex;
     gap: 25px;
