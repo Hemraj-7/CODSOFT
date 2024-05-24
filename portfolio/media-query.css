@@ -103,12 +103,30 @@
     padding: 7px;
   }
 
+  .right-contact,
+  .left-contact {
+    font-size: 16px;
+  }
+
+  .form input,
+  textarea {
+    font-size: 16px;
+  }
+
+  .contact-icon {
+    gap: 10px;
+  }
+
+  .contact-icon img {
+    width: 24px;
+  }
+
   .footer {
     font-size: 12px;
     font-weight: 500;
   }
 
-  button{
+  button {
     font-size: 16px;
     padding: 3px 7px;
   }
