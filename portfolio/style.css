@@ -14,7 +14,7 @@
     --text-color: rgb(125, 125, 125);
 }
 
-nav{
+nav {
     position: relative;
 }
 
@@ -127,7 +127,7 @@ button {
     cursor: pointer;
 }
 
-button a{
+button a {
     text-decoration: none;
     color: white;
 }
@@ -152,7 +152,7 @@ button a{
     padding: 70px 150px;
 }
 
-.about-me h3{
+.about-me h3 {
     padding: 20px;
 }
 
@@ -171,14 +171,14 @@ button a{
     color: var(--text-color);
 }
 
-.about-cards{
+.about-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
 }
 
-.about-card{
+.about-card {
     border: 2px solid var(--color);
     border-radius: 5px;
     padding: 10px 12px;
@@ -186,11 +186,11 @@ button a{
     color: var(--text-color);
 }
 
-.about-me h3{
+.about-me h3 {
     color: var(--color);
 }
 
-.about-card h4{
+.about-card h4 {
     font-size: 20px;
     padding: 0 0;
     color: #020514;

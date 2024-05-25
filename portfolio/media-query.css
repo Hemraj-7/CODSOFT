@@ -1,5 +1,74 @@
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0 50px;
+  }
 
+  .home {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .home-intro .info {
+    font-size: 18px;
+  }
+
+  .home-intro {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-me {
+    padding: 50px 80px;
+  }
+
+  .about p {
+    font-size: 16px;
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .container {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .container-right {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .proj-card,
+  .proj-card img {
+    width: 850px;
+  }
+}
+
+@media (max-width: 912px) {
+
+  .proj-card,
+  .proj-card img {
+    width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 35px;
+  }
+
+  .proj-card,
+  .proj-card img {
+    width: 650px;
+  }
+
+  .icon {
+    padding: 7px;
+  }
+}
+
+@media (max-width: 600px) {
   .navbar {
     padding: 0 20px;
   }
