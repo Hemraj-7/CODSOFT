@@ -78,7 +78,7 @@
     color: white;
   }
 
-  .navbar ul {
+  ul {
     display: none;
   }
 
@@ -202,5 +202,10 @@
   button {
     font-size: 16px;
     padding: 3px 7px;
+  }
+
+  ul li a {
+    border: 2px solid white;
+    padding: 5px 20px;
   }
 }
