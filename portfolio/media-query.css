@@ -127,7 +127,7 @@
   }
 
   .skills {
-    padding-top: 65px;
+    padding-top: 60px;
   }
 
   .container {
@@ -147,13 +147,17 @@
     gap: 12px;
   }
 
+  .projects {
+    padding-top: 60px;
+  }
+
   .proj-card,
   .proj-card img {
     width: 370px;
   }
 
   .contact {
-    padding-top: 50px;
+    padding-top: 60px;
   }
 
   .contact-container {

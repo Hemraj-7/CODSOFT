@@ -13,15 +13,15 @@
 <body id="home">
     <nav class="navbar">
         <h1 class="logo"><a href="#home">Hem Raj</a></h1>
-        <button class="menu" onclick="myFunction()">
-            <img width="36" src="./svg and pictures/menu.svg" alt="menu bar svg Picture">
+        <button href="javascript:void(0);" class="menu" onclick="menuFunction()">
+            <img width="34" src="./svg and pictures/menu.svg" alt="menu bar svg Picture">
         </button>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a onclick="autoFunction()" href="#home">Home</a></li>
+            <li><a onclick="autoFunction()" href="#about">About</a></li>
+            <li><a onclick="autoFunction()" href="#skills">Skills</a></li>
+            <li><a onclick="autoFunction()" href="#projects">Projects</a></li>
+            <li><a onclick="autoFunction()" href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -343,28 +343,39 @@
         All &copy; right are resevered by Hemraj-7
     </footer>
     <script>
-        function myFunction() {
-            var x = document.querySelector("ul");
-            var navbar = document.querySelector(".navbar");
+
+        function menuFunction() {
+            let x = document.querySelector("ul");
+            let menuImg = document.querySelector(".menu>img");
+            let a = document.querySelectorAll('ul>li>a');
 
             if (x.style.display === "flex") {
                 x.style.display = "none";
-
-            } else {
+                menuImg.src = "./svg and pictures/menu.svg";
+            }
+            else {
                 x.style.display = "flex";
-                navbar.style.position = "relative";
                 x.style.gap = "50px";
                 x.style.flexDirection = "column"
-                console.log('noooh');
                 x.style.backgroundColor = "#1e90ff";
                 x.style.position = "absolute";
                 x.style.top = "49.5px";
                 x.style.right = 0;
-                x.style.padding = "50px 100px";
+                x.style.width = "100vw";
+                x.style.paddingTop = "30px";
+                x.style.paddingBottom = "50px";
                 x.style.textAlign = "center";
                 x.style.fontSize = "20px";
+                menuImg.src = "./svg and pictures/close.svg";
             }
         }
+
+        function autoFunction() {
+            if (screen.width < 600) {
+                menuFunction()
+            }
+        }
+
     </script>
 </body>
 
