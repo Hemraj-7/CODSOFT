@@ -183,6 +183,7 @@ button a {
 }
 
 .about-me h3 {
+    text-wrap: nowrap;
     color: var(--color);
 }
 

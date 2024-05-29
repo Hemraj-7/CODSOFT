@@ -1,0 +1,201 @@
+@media screen and (max-width: 1024px) {
+    nav{
+        padding: 10px;
+    }
+    .content{
+        grid-row: 2;
+    }
+
+    .container .search-bar{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .added-homes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .added-homes .image{
+        margin-bottom: 10px;
+    }
+    .links{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .link ul li{
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sub-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-section .image{
+        order: -1;
+    }
+    .d-nav .ul{
+        display: none;
+    }
+    .input-submit{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 80px;
+        width: 100%;
+    }
+    .logo-footer{
+        width: 100%;
+    }
+    .logo-footer .btn .red{
+        text-wrap: nowrap;
+        padding: 10px 20px;
+    }
+    .footer span{
+        display: none;
+    }
+    .linkss .company{
+        font-size: 14px;
+        padding-left: 1px;
+    }
+    .link ul li a{
+        font-size: 12px;
+    }
+    .copyright{
+        margin: 0;
+        margin-top: 30px;
+        /* text-wrap: nowrap; */
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    * p{
+        font-size: 15px;
+    }
+    .d-nav img{
+        justify-content: flex-start;
+    }
+    .sub-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-section .content h2{
+        font-size: 10px;
+    }
+    .sub-section .image{
+        order: -1;
+    }
+    .home{
+        width: 414px;
+        height: 470px;
+    }
+    .bbc{
+        width: 90%;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+    .container ul{
+        gap: 15px;
+    }
+    .search-bar input{
+        width: 85%;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .search-bar button{
+        padding: 10px 80px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .container div p{
+        padding: 10px;
+        text-align: justify;
+    }
+    .search-bar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero h1 {
+        font-size: 38px;
+        font-weight: 700;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .sub-section{
+        gap: 0px;
+    }
+    .sub-section .content{
+        gap: 7px;
+    }
+    .sub-section-2{
+        margin-bottom: 40px;
+    }
+    .sub-section .content h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .hero .sub-section .image img{
+        height: 200px;
+        width: 330px;
+    }
+    .h1{
+        font-size: 38px;
+        font-weight: 700;
+        width: 80vw;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .added-homes{
+        width: 100%;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .added-homes .homes .image img{
+        width: 345px;
+    }
+    .added-homes .homes .content h2{
+        font-size: 30px;
+    }
+    .added-homes .homes .content h3{
+        font-size: 18px;
+    }
+    
+    .submit-form{
+        width: 80%;
+        padding: 20px;
+        margin-bottom: 60px;
+    }
+    .submit-form .content p{
+        width: 90%;
+        text-align: justify;
+    }
+    .submit-form .content h1{
+        width: 95%;
+        font-size: 38px;
+        text-align: center;
+    }
+    .input-submit{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sub-section .content h1{
+        font-size: 38px;
+    }
+    .hero div .sub-section-1 .content, .image{
+        margin-bottom: 15px;
+    }
+    .sub-s-n{
+        margin-bottom: 40px;
+    }
+    .sub-s-n .image img{
+        height: 285px;
+        width: 295px;
+    }
+}
