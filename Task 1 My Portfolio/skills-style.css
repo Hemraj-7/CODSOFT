@@ -1,0 +1,134 @@
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 62%;
+    }
+}
+
+#bootstrap-bar{
+    animation: bootstrap-fill 2s forwards;
+}
+@keyframes bootstrap-fill{
+    100%{
+        width: 50%;
+    }
+}
+
+#tailwind-bar{
+    animation: tailwind-fill 2s forwards;
+}
+@keyframes tailwind-fill{
+    100%{
+        width: 80%;
+    }
+}
+
+#react-bar{
+    animation: react-fill 2s forwards;
+}
+@keyframes react-fill{
+    100%{
+        width: 65%;
+    }
+}
+
+#next-bar{
+    animation: next-fill 2s forwards;
+}
+@keyframes next-fill{
+    100%{
+        width: 65%;
+    }
+}
+
+#node-bar{
+    animation: node-fill 2s forwards;
+}
+@keyframes node-fill{
+    100%{
+        width: 58%;
+    }
+}
+
+#express-bar{
+    animation: express-fill 2s forwards;
+}
+@keyframes express-fill{
+    100%{
+        width: 50%;
+    }
+}
+
+#mongo-bar{
+    animation: mongo-fill 2s forwards;
+}
+@keyframes mongo-fill{
+    100%{
+        width: 70%;
+    }
+}
+
+#git-bar{
+    animation: git-fill 2s forwards;
+}
+@keyframes git-fill{
+    100%{
+        width: 45%;
+    }
+}
+
+#github-bar{
+    animation: github-fill 2s forwards;
+}
+@keyframes github-fill{
+    100%{
+        width: 65%;
+    }
+}
+
+#rd-bar{
+    animation: rd-fill 2s forwards;
+}
+@keyframes rd-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+#c-bar{
+    animation: c-fill 2s forwards;
+}
+@keyframes c-fill{
+    100%{
+        width: 67%;
+    }
+}
+
+#java-bar{
+    animation: java-fill 2s forwards;
+}
+@keyframes java-fill{
+    100%{
+        width: 69%;
+    }
+}
