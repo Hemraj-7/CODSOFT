@@ -399,5 +399,8 @@ footer{
 }
 .copyright a{
     text-decoration: none;
-    color: #007bff;
+    color: #a2a1a1;
+}
+.copyright a:hover{
+    color: blue;
 }
