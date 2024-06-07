@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(224, 222, 222);
+    /* background-color: rgb(224, 222, 222); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,15 +40,28 @@ body{
 }
 
 button{
-    border: none;
+    /* border: none; */
     border-radius: 5px;
     background-color: white;
     padding: 12px 0px;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .operator{
     background-color: aqua;
 }
+
+.absolute-top-z-h-screen-w-screen-bg {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    height: 100vh; /* or height: 100% if you prefer */
+    width: 100vw; /* or width: 100% if you prefer */
+    background-color: #000000;
+    background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 1px, rgba(0, 9, 29, 0.2) 1px);
+    /* Modify the rgba values as per your requirement */
+    background-size: 20px 20px;
+  }
