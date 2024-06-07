@@ -16,7 +16,7 @@ body{
 
 .calculator{
     width: 350px;
-    background-color: rgb(200, 35, 153);
+    background-color: white;
     border-radius: 10px;
     padding: 12px;
     display: flex;
@@ -52,6 +52,11 @@ button{
 
 .operator{
     background-color: aqua;
+}
+
+.red{
+    background-color: red;
+    color: white;
 }
 
 .absolute-top-z-h-screen-w-screen-bg {
